@@ -23,13 +23,13 @@ export default class Spreadsheet extends React.Component {
         <h1>My little spreadsheet</h1>
 
         <div className='spreadsheet__buttons'>
-          <button>Add Column</button>
+          <button onClick={this.handleAddColumn}>Add Column</button>
           {' '}
-          <button>Add Row</button>
+          <button onClick={this.handleAddRow}>Add Row</button>
           {' '}
-          <button>Remove Column</button>
+          <button onClick={this.handleRemoveColumn}>Remove Column</button>
           {' '}
-          <button>Remove Row</button>
+          <button onClick={this.handleRemoveRow}>Remove Row</button>
         </div>
 
         <Table onBlur={this.handleBlur} onFocus={this.handleFocus}/>
