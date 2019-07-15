@@ -32,7 +32,7 @@ export default class Spreadsheet extends React.Component {
           <button>Remove Row</button>
         </div>
 
-        <Table onBlur={this.handleBlur}/>
+        <Table onBlur={this.handleBlur} onFocus={this.handleFocus}/>
 
         <div className='spreadsheet__focused'>
         </div>
