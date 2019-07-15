@@ -5,6 +5,6 @@ import Row from './Row';
 
 export default class Table extends React.Component {
   render () {
-    return(<table className='table'><tbody></tbody></table>);
+    return(<table className='table' onBlur={this.props.onBlur}><tbody></tbody></table>);
   }
 }
