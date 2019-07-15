@@ -5,6 +5,7 @@ function addColumn (ev) {
 }
 
 function addRow (ev) {
+  ev.preventDefault();
 }
 
 function changeCell (rowIndex, columnIndex, ev) {
