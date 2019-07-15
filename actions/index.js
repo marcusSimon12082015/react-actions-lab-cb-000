@@ -22,6 +22,7 @@ function removeRow (ev) {
 }
 
 function removeColumn (ev) {
+  ev.preventDefault();
 }
 
 export default {
